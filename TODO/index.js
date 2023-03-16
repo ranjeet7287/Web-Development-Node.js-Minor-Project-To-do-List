@@ -7,7 +7,7 @@ const db = require('./config/mongoose')
 //const TodoLists = require('./models/todo_list')
 // it is use to handle middle ware here we are using express.urlenceode to us e the parser
 app.use(express.urlencoded()) 
-app.use('/',require('./router'))
+app.use('/',require('./routes'))
 app.use(express.static('./assest')) // for getting static
 app.set('layout extractStyles',true);
 app.set('layout extractScripts',true)

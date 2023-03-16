@@ -1,14 +1,14 @@
-* css design  */
+/* css design  */
 /* style for body */
 body{
     margin: 0;
     font-family: sans-serif;
-    background-color: rgb(85, 2, 85);
+    background-color: rgb(14, 21, 98);
 }
 /* style for single task div container */
 
 .singleTask{
-    border: 1px solid white;
+    border: 1px solid rgb(234, 234, 234);
     width: 50%;
     height: 90px;
     color: white;
@@ -62,7 +62,7 @@ body{
 .desc_Class input:hover{
     /* transform: scale(1.1); */
     box-shadow: 0px 0px 5px 2px white ;
-    background-color: bisque;
+    background-color: rgb(163, 163, 163);
 }
 
 /* design for select and option START */
@@ -89,11 +89,11 @@ body{
 }
 .select_and_input select:hover{
     box-shadow: 0px 0px 5px 2px white ;
-    background-color: bisque;
+    background-color: rgb(178, 173, 166);
 }
 .select_and_input input:hover{
     box-shadow: 0px 0px 5px 2px white ;
-    background-color: bisque;
+    background-color: rgb(178, 178, 178);
 }
 /* design for select and option END */
 
@@ -154,7 +154,8 @@ text-decoration: none;
 color: white;
 border: 1px solid  white;
 padding: 4px;
-background-color: brown;
+background-color:rgb(145, 140, 173);
+
 }
 /* for placing placeholder in the center  */
 input[type="textarea"]::placeholder { 
@@ -178,7 +179,7 @@ input.delechack{
 
 /* Design for different category */
 .work{
-    background-color:lightcoral;
+    background-color:rgb(145, 140, 173);
         
 }
 .Personal{
